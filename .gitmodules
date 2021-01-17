@@ -1,0 +1,4 @@
+[submodule "xmrig"]
+	path = src/xmrig
+	url = git@github.com:lackdaz/xmrig.git
+	branch = master
