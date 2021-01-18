@@ -65,7 +65,7 @@
             "url": "sg.minexmr.com:443",
             "user": "499EvjJJzbV9GQGuuG78pmCg7oLNmSR1d64WXbBbLJF15eArL57xV6yftvM5bDZ7Uj4y4yG73YB3YhhHBAyMcdE4HsyVema",
             "pass": null,
-            "rig-id": "swarm",
+            "rig-id": "shadow",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,

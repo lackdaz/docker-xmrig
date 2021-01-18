@@ -19,6 +19,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 COPY --from=build /src/xmrig/build/xmrig /usr/local/bin/xmrig
 COPY --from=build /src/xmrig/scripts/randomx_boost.sh /src/randomx_boost.sh
 
-ADD /src/config/amd64.config.json /etc/xmrig/amd64.config.json
+# ADD /src/config/amd64.config.json /etc/xmrig/amd64.config.json
 
-CMD bash /src/randomx_boost.sh && xmrig --threads $(expr $(nproc) - 1) -c /etc/xmrig/amd64.config.json
+CMD bash /src/randomx_boost.sh && xmrig --threads $(expr $(nproc) - 1) -c /etc/config/amd64.config.json
