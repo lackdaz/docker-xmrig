@@ -3,4 +3,4 @@ docker run --name xmrig \
     --restart=on-failure:20 \
     --mount target=/lib/modules,source=/lib/modules,type=bind \
     --volume "$(pwd)"/src/config:/etc/config \
-    localhost:5000/xmrig:latest
+    xmrig:latest
