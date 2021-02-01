@@ -39,7 +39,7 @@
         "astrobwt-avx2": false,
         "*": {
             "intensity": 1,
-            "threads": 31,
+            "threads": 3,
             "affinity": -1
         }
     },
@@ -57,15 +57,15 @@
     },
     "log-file": null,
     "donate-level": 0,
-    "donate-over-proxy": 1,
+    "donate-over-proxy": 0,
     "pools": [
         {
             "algo": null,
-            "coin": null,
+            "coin": "monero",
             "url": "sg.minexmr.com:443",
             "user": "499EvjJJzbV9GQGuuG78pmCg7oLNmSR1d64WXbBbLJF15eArL57xV6yftvM5bDZ7Uj4y4yG73YB3YhhHBAyMcdE4HsyVema",
             "pass": null,
-            "rig-id": "*",
+            "rig-id": "farm",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,
@@ -77,7 +77,7 @@
         },
         {
             "algo": null,
-            "coin": null,
+            "coin": "monero",
             "url": "pool.supportxmr.com:443",
             "user": "499EvjJJzbV9GQGuuG78pmCg7oLNmSR1d64WXbBbLJF15eArL57xV6yftvM5bDZ7Uj4y4yG73YB3YhhHBAyMcdE4HsyVema",
             "pass": "swarm",
